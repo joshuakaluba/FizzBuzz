@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // Joshua Kaluba - 2016-01-30
 // A program that prints the numbers from 1 to 100. 
@@ -12,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz
 {
-    class Program
+	class Program
     {
         static void Main(string[] args)
         {
@@ -40,7 +36,6 @@ namespace FizzBuzz
 
                 else
                 {
-                    //if all else fails, output the index
                     output = index.ToString();
                 }
 
